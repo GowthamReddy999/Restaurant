@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body{
+            background-image: url(image1.png.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .box1{
+            margin-top: 400px;
+            margin-left: 80px;
+            color: white;
+
+        }
+        
+        input{
+            width: 350px;
+            height: 30px;
+            border-radius: 20px;
+            padding: 5px 0;
+            background-color: antiquewhite;
+            margin: 0px;
+        }
+        label{
+            font-weight: bold;
+            font-size: x-large;
+            padding: 15px 0;
+        }
+ 
+
+div{
+    margin-left: 220px;
+}
+input[type="submit"]:hover{
+            background-color: aquamarine;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    
+  <!--  <nav class="box1">
+    <label for="Name">Name:</label><br>
+    <input type="text" id="name"
+    placeholder="Name"><br><br>
+    <label for="Phone no:">Phone no:</label><br>
+    <input type="text" id="Table no"
+    placeholder="Phone no"><br>
+   
+    </nav>
+    <br><br>
+   <div>
+    <button type="button">
+    <a href="Next.html">Next</a></button></div>-->
+    <nav class="box1">
+    </script>
+    <form onsubmit="return sub()" action="Next.html" method="get">
+        <label for="Name">NAme:</label>
+        <input type="text" id="Name"><br><br>
+        <label for="mob">Mobile No:</label>
+        <input type="number" id="mob"><br><br>
+       
+        <input type="submit"  value="submit form">
+        </form></nav>
+       <script>
+            function sub(){
+                
+                var a = document.getElementById('Name').value;
+                var a = document.getElementById('mob').value;
+                
+                if(a=="" || b==""){
+                    alert("All fields are mandatory");
+                    return false;
+                }
+                else if (b.length<10 || b.length>10){
+                    alert("Mobile number should be of 10 digits");
+                    return false;
+                }
+                else if(isNaN(b)){
+                    alert("Only numbers are allowed");
+                    return false;
+                }
+                else if (c != d){
+                    alert('Please enter same passord');
+                    return false;
+                
+                }
+                else {
+                    return false;
+                }
+    
+            }
+        </script>
+</body>
+</html>

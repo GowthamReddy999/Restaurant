@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Payment Banner</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url(image6.png.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.banner {
+    text-align: center;
+    background: linear-gradient(135deg, #3a3d99, #4c5cd1);
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.banner h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.qr-box {
+    margin: 15px auto;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    color: #3a3d99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #3a3d99;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.thank-you {
+    margin-top: 15px;
+    font-size: 16px;
+}
+h1{
+    color: white;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>SCAN HERE</h1>
+        <p>FOR PAYMENT</p>
+        <div class="qr-box">
+            <p><img src="qr.jpg.jpg" width="150px" height="160px"></p>
+
+        </div>
+        <p class="thank-you">THANK YOU</p>
+    </div>
+    <h1><i>VISIT OUR RESTAURANT AGAIN...!</i></h1>
+</body>
+</html>
